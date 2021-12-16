@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+p,h1 {
+    color: #0D4625;
+}
+.Header {
+    font-weight: bold;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    div{
+        display: flex;
+        p {
+            text-decoration: underline;
+            padding-left: 30px;
+        }
+    }
+}
+.firstView {
+    background-image: url(../src/images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 60vh;
+}
+.welcome {
+    padding: 6%;
+    width: 40%;
+    margin: auto auto;
+}
+.Articles {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.ArticleItem {
+    padding: 5%;
+    // height: 300px;
+    p {
+        text-align: center;
+    }
+    p+p {
+        padding: 10px 20px;
+        background-color: azure;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+    img {
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p, h1 {
+  color: #0D4625;
+}
+
+.Header {
+  font-weight: bold;
+  padding: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Header div p {
+  text-decoration: underline;
+  padding-left: 30px;
+}
+
+.firstView {
+  background-image: url(../src/images/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 60vh;
+}
+
+.welcome {
+  padding: 6%;
+  width: 40%;
+  margin: auto auto;
+}
+
+.Articles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.ArticleItem {
+  padding: 5%;
+}
+
+.ArticleItem p {
+  text-align: center;
+}
+
+.ArticleItem p + p {
+  padding: 10px 20px;
+  background-color: azure;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.ArticleItem img {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+/*# sourceMappingURL=App.css.map */
