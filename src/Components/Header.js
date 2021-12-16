@@ -14,7 +14,7 @@ class Header extends React.Component {
             <div className="Header">
                 <p>My Life</p>
                 <div className="navItems">
-                    <Link to={'/App'}><p>Home</p></Link>
+                    <Link to={'/'}><p>Home</p></Link>
                     <Link to={'/ArticlesPage'}><p  >Blog</p></Link>
                 </div>
             </div>

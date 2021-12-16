@@ -7,10 +7,12 @@ import {
 } from "react-router-dom";
 import './App.css';
 import { blogData } from './DataBase';
-import Header from './Header';
-import Articles from './Articles';
-import ArticlesPage from './ArticlesPage';
+import Header from './Components/Header';
+import Articles from './Components/Articles';
+import ArticlesPage from './Pages/ArticlesPage';
 import Welcome from './Welcome';
+import Home from './Components/Home';
+import HomePage from './Pages/HomePage'; 
 
 class App extends React.Component {
   state = {
@@ -19,18 +21,14 @@ class App extends React.Component {
   render() { 
     return (
       <div className="App">
-        <div id='firstView' className="firstView">
+        
           <Router>
             <Header/>
             <Routes>
-              <Route path = '/' element={<App/>} />
+              <Route path = '/' element={<HomePage/>} />
               <Route path = '/ArticlesPage' element = {<ArticlesPage/>} />
             </Routes>
           </Router>
-        </div>
-        <Router><Welcome/></Router>
-        
-
       </div>
     );
   }

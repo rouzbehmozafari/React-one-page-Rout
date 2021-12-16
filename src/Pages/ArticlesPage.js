@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Articles from './Articles';
+import Articles from '../Components/Articles';
 
 class ArticlesPage extends React.Component {
     render() { 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ArticleItem from './ArticleItem';
-import { blogData } from './DataBase';
+import { blogData } from '../DataBase';
 import { v4 as uuidv4 } from 'uuid';
 
 const Articles = () => {
