@@ -2,8 +2,13 @@
     padding: 0;
     margin: 0;
 }
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+  }
 p,h1 {
     color: #0D4625;
+    font-size: 20px;
 }
 .Header {
     font-weight: bold;
@@ -25,12 +30,19 @@ p,h1 {
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 60vh;
-
+    margin-top: -110px;
 }
 .welcome {
     padding: 6%;
     width: 40%;
     margin: auto auto;
+    h1 {
+        margin-bottom: 40px;
+    }
+    p {
+        text-decoration: none;
+    }
+
 }
 .Articles {
     display: grid;
@@ -53,6 +65,12 @@ p,h1 {
         width: 100%;
         overflow: hidden;
         padding-bottom: 30px;
+    }
+    .readMore {
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: #0D4625 solid 2px;
+        margin-top: 30px;
     }
 }
 .CardDetails {
