@@ -69,4 +69,18 @@ p, h1 {
   overflow: hidden;
   padding-bottom: 30px;
 }
+
+.CardDetails {
+  width: 50%;
+  text-align: center;
+  margin: auto auto;
+}
+
+.CardDetails img {
+  width: 100%;
+}
+
+.CardDetails * {
+  margin-bottom: 3%;
+}
 /*# sourceMappingURL=App.css.map */

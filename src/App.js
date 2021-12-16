@@ -13,6 +13,7 @@ import ArticlesPage from './Pages/ArticlesPage';
 import Welcome from './Welcome';
 import Home from './Components/Home';
 import HomePage from './Pages/HomePage'; 
+import CardPage from './CardPage'
 
 class App extends React.Component {
   state = {
@@ -27,6 +28,7 @@ class App extends React.Component {
             <Routes>
               <Route path = '/' element={<HomePage/>} />
               <Route path = '/ArticlesPage' element = {<ArticlesPage/>} />
+              <Route path = '/ArticlesPage/:id' element = {<CardPage/>} />
             </Routes>
           </Router>
       </div>
