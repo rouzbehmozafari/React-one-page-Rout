@@ -1,10 +1,6 @@
-import React, { Component } from 'react';
-import {  BrowserRouter as Router,  Routes,  Route,  Link} from "react-router-dom";
+import React from 'react';
 import '../App.css';
 import { blogData } from '../DataBase';
-import Header from './Header';
-import Articles from './Articles';
-import ArticlesPage from '../Pages/ArticlesPage';
 import Welcome from '../Welcome';
 
 class Home extends React.Component {

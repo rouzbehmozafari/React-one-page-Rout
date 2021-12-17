@@ -1,6 +1,6 @@
-import CardDetails from "./CardDetails";
+import CardDetails from "../CardDetails";
 import { useParams } from "react-router-dom";
-import { blogData } from "./DataBase";
+import { blogData } from "../DataBase";
 
 const CardPage = () => {
     let { id } = useParams()
